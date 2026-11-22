@@ -1,0 +1,52 @@
+body{
+    background-color:aqua;
+    font-size: large;
+}
+h1{
+    color: black;
+}
+img{
+    background-color: black;
+    margin-left: 25%;
+}
+#header{
+    align-text: centre;
+    margin-left: 20%;
+}
+.p1{
+    margin-left: 13%;
+    font-size:large;
+}
+#table{
+    background-color:rgb(28, 196, 79);
+}
+#table_row{
+    color:rgb(93, 30, 211);
+    
+}
+.body{
+    background-color: antiquewhite;
+    font-size:large;
+}
+#room{
+    margin-left: 15%;
+}
+.paragraph{
+    margin-left: 10% ;
+}
+.body1{
+    background-color: rgb(165, 136, 192);
+    margin-left: 5%;
+
+    font-size: large;
+}
+.button{
+    background-color: rgb(217, 217, 230);
+    font-weight: 300;
+    font-style: italic;
+
+
+}
+.photo{
+    margin: auto;
+}

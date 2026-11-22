@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking a room</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body >
+    <h2>Rooms and accommodstion booking.</h2>
+
+<form action="https://xxxx server name">
+
+    
+   <fieldset>
+    <legend>
+        Booking a Room...
+    </legend>
+
+     <label for="name"><b>Full Name</b>:</label>
+    <input type="text" name="Full Name" id="name" placeholder="Enter your name" required maxlength="30" minlength="10">
+    <br><br>
+    <label for="email"><b>Email Address:</b> </label>
+    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+    <br><br>
+    <label for="tel"><b>Telphone NO: </b></label>
+    <input type="tel" name="telphone no" id="tel" required>
+
+    <br><br>
+    <label for="date"><b>Check-In-Date: </b></label>
+    <input type="date" name="chech in" id="date" required>
+
+     <br><br>
+    <label for="date"><b>Check-Out-Date: </b></label>
+    <input type="date" name="chech out" id="date" required>
+
+    <br><br>
+
+    <label for="number"><b>Number of quest: </b></label>
+    <input type="number" name="number" id="number" required max="5" min="1" placeholder="1">
+
+    <br><br>
+    <h4>Choose payment method</h4>
+    <label for="radio"><b>M-Pesa: </b></label>
+    <input type="radio" name="payment method" id="radio">
+
+      <label for="radio"><b>Airtel Money: </b></label>
+    <input type="radio" name="payment method" id="radio">
+
+      <label for="radio"><b>Bank: </b></label>
+    <input type="radio" name="payment method" id="radio">
+
+<br><br><br>
+    <label for="drop"><b>Room Type: </b></label>
+    <select name="Room" id="drop">
+        <option value="agrey">Agrey</option>
+        <option value="mbusiro_marwa">Mbusiro_Marwa</option>
+        <option value="felloh">Felloh</option>
+        <option value="anco g">Anco G</option>
+        <option value="champions_chacha">Champions_Chacha</option>
+        <option value="nchama_peter">Nchama_Peter</option>
+        <option value="marvelous">Marvelous</option>
+        <option value="augustine">Augustine</option>
+        <option value="manchester">Manchester</option>
+        <option value="elizah">Elizah</option>
+    </select>
+<br><br>
+    <button class="button">Submit</button>
+    <button class="button">Reset</button>
+   </fieldset>
+    
+</form>
+
+<br><br>
+<a href="Home.html">Bach to home</a>
+</body>
+</html>
