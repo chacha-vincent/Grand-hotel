@@ -11,7 +11,8 @@ body{
 }
 
 .B1{
-    font-size: larger;
+    font-size: x-large;
+    padding:25px;
 }
 h1{
     color: black;
